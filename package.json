@@ -1,5 +1,5 @@
 {
-  "name": "@kadira/storybook-deployer",
+  "name": "@davidguan/storybook-deployer",
   "version": "1.2.0",
   "description": "Deploy your storybook as a webapp.",
   "bin": {
@@ -14,12 +14,12 @@
     "deploy",
     "static"
   ],
-  "author": "Arunoda Susiripala <arunoda@kadira.io>",
+  "author": [
+    "Arunoda Susiripala <arunoda@kadira.io>",
+    "David Guan <davidguandev@gmail.com>"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kadirahq/storybook-deployer/issues"
-  },
-  "homepage": "https://github.com/kadirahq/storybook-deployer#readme",
+  "homepage": "https://github.com/EcutDavid/storybook-deployer",
   "dependencies": {
     "git-url-parse": "^6.0.2",
     "shelljs": "^0.7.0"
